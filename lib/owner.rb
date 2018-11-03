@@ -60,4 +60,8 @@ class Owner
       types.clear
     end
   end
+
+  def list_pets
+    
+  end
 end
