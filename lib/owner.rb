@@ -5,8 +5,7 @@ class Owner
   def self.all
     @@all
   end
-  def initialize(owner, species)
+  def initialize(owner)
     @owner = owner
-    @species = species
   end
 end
