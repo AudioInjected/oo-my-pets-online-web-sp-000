@@ -57,6 +57,7 @@ class Owner
       types.each do |type|
         type.mood = "nervous"
       end
+      types.clear
     end
   end
 end
